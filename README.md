@@ -28,6 +28,6 @@ For the amount, choose to send the **entire balance** of ENJ or EFI tokens. The 
 
 After the transaction is confirmed and broadcasted to the blockchain, the migration process will start and your wallet will be credited with new native ENJ tokens. Depending on the network usage, it may take **2–10 minutes** to process the migration. 
 
-Your wallet will **automatically recognize** the new ENJ tokens, which will be credited to your wallet. Your new ENJ tokens are tied to the same private key and seed where you held your old ERC-20 ENJ or EFI tokens. 
+Your wallet will **automatically recognize** the new ENJ tokens, which will be credited to your wallet. This is made possible by the wallet linkage functionality in the migration contract, which leverages standard private key cryptography. The new ENJ tokens are securely tied to the same private key and seed phrase that you used for your previous ERC-20 ENJ or EFI tokens, although the public address will look different.
 
 Congratulations, you have successfully performed the migration. Now you can be sure you hold the **latest ENJ tokens**, which are supported on all exchanges. 
